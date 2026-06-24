@@ -1,0 +1,16 @@
+newmtl Part1Mtl
+Material Color
+Ka 1 0.186989 0.00837312
+Kd 1 0.186989 0.00837312
+Ks 0.0627451 0.0117326 0.000525372 
+
+d 1
+
+Ns 0
+
+map_Ka Part1_diff.png
+map_Kd Part1_diff.png
+map_d Part1_diff.png
+
+map_Bump Part1_nmap.png
+

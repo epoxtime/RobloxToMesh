@@ -1,0 +1,224 @@
+newmtl Board1Mtl
+Material Color
+Ka 0.47044 0.311181 0.263175
+Kd 0.47044 0.311181 0.263175
+Ks 0.0295178 0.0195251 0.0165129 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Color1Mtl
+Material Color
+Ka 0.47044 0.47044 0.47044
+Kd 0.47044 0.47044 0.47044
+Ks 0.0295178 0.0295178 0.0295178 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Color7Mtl
+Material Color
+Ka 0.47044 0.0619075 0.0938759
+Kd 0.47044 0.0619075 0.0938759
+Ks 0.0295178 0.00388439 0.00589025 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Color2Mtl
+Material Color
+Ka 0.124741 0.234895 0.47044
+Kd 0.124741 0.234895 0.47044
+Ks 0.00782688 0.0147385 0.0295178 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Color3Mtl
+Material Color
+Ka 0.147998 0.420508 0.0938759
+Kd 0.147998 0.420508 0.0938759
+Ks 0.00928615 0.0263848 0.00589025 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Color4Mtl
+Material Color
+Ka 0.47044 0.320382 0.0915184
+Kd 0.47044 0.320382 0.0915184
+Ks 0.0295178 0.0201024 0.00574233 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Highlight1Mtl
+Material Color
+Ka 0.018913 0.0265487 0.0494335
+Kd 0.018913 0.0265487 0.0494335
+Ks 0.0011867 0.0016658 0.00310171 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Body1Mtl
+Material Color
+Ka 0.0600316 0.0846415 0.154152
+Kd 0.0600316 0.0846415 0.154152
+Ks 0.00376669 0.00531084 0.0096723 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Color5Mtl
+Material Color
+Ka 0.47044 0.0891935 0.00902149
+Kd 0.47044 0.0891935 0.00902149
+Ks 0.0295178 0.00559646 0.000566054 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Hinge1Mtl
+Material Color
+Ka 0.259027 0.113921 0.0697271
+Kd 0.259027 0.113921 0.0697271
+Ks 0.0162527 0.00714798 0.00437503 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Color6Mtl
+Material Color
+Ka 0.47044 0.0356144 0.0111261
+Kd 0.47044 0.0356144 0.0111261
+Ks 0.0295178 0.00223463 0.000698107 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Canvas1Mtl
+Material Color
+Ka 0.991393 0.932277 1
+Kd 0.991393 0.932277 1
+Ks 0.062205 0.0584958 0.0627451 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Bolt1Mtl
+Material Color
+Ka 0.183549 0.238828 0.25084
+Kd 0.183549 0.238828 0.25084
+Ks 0.0115168 0.0149853 0.015739 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
+newmtl Support1Mtl
+Material Color
+Ka 0.47044 0.254916 0.144972
+Kd 0.47044 0.254916 0.144972
+Ks 0.0295178 0.0159947 0.00909629 
+
+d 1
+
+Ns 0
+
+map_Ka Color1_diff.png
+map_Kd Color1_diff.png
+map_d Color1_diff.png
+
+map_Bump Color1_nmap.png
+
