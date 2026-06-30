@@ -43,7 +43,7 @@ function App() {
                             resolve();
                         }
                     } catch (e) { }
-                }, 20);
+                }, 100);
             });
         }
 

@@ -75,13 +75,14 @@ def upload():
 def progress():
     progress_path = os.path.join(UPLOAD_FOLDER, "progress.txt")
 
-    if not os.path.exists(progress_path):
-        return jsonify({"value": 0, "message": "Waiting..."})
-    
-    with open(progress_path, "r") as f:
-        lines = f.read().splitlines()
-
-    return jsonify({"value": int(lines[0]), "message": lines[1]})
+    try:
+        with open(progress_path) as f:
+            lines = f.read().splitlines()
+        if len(lines) < 2:
+            return jsonify({"value": 0, "message": "..."})
+        return jsonify({"value": int(lines[0]), "message": lines[1]})
+    except (FileNotFoundError, ValueError):
+        return jsonify({"value": 0, "message": "..."})
 
 if __name__ == "__main__":
     app.run(debug=True)

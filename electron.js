@@ -43,7 +43,7 @@ function createWindow() {
 
     win.loadURL('http://localhost:1234')
 
-    win.webContents.openDevTools()
+    //win.webContents.openDevTools()
 }
 
 app.whenReady().then(createWindow)
